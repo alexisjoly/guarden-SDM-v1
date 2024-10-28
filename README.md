@@ -8,7 +8,7 @@ dependencies and versions used for training are listed in `guarden_sdm_v1.yml`\
 create conda env:\
 ```conda env create -f guarden_sdm_v1.yml```
 
-## occurrences/plots files
+## occurrences/plots files (not included in the repo)
 
 observations are split in 7 files:
 - `PO_glc23_train`: the presence only observation of glc23 (removing 5000 occs for validations)
