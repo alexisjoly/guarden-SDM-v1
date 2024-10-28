@@ -1,6 +1,6 @@
 # guarden SDM v1 models training
 
-## /!\ This code outlines the training procedure for the Guarden SDM v1 model. Please note that this code is not reproducible without the EVA data, which is not provided and is subject to restrictions.
+## /!\ This code outlines the training procedure for the Guarden SDM v1 model. Please note that this code is not reproducible without the private test data from GLC23, which includes EVA data not provided and is subject to restrictions.
 
 ## Setup
 
