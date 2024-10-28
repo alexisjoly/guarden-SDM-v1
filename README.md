@@ -20,3 +20,8 @@ observations are split in 7 files:
 - `PA_eva_glc23_test`: 5% of 2023 eva extraction of presence-absence for the validation of guarden models
 
 **important note**: the ids of eva and glc observations are not compatible and overlaps.
+
+## Training Images (not included in the repo)
+
+Training images are composed of 5 layers (3 layers RGB, 1 layer near infra-red, 1 layer elevation).\
+Training images for public GLC23 data can be found on the challenge page: https://www.kaggle.com/competitions/geolifeclef-2023-lifeclef-2023-x-fgvc10/
