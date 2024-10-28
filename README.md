@@ -1,22 +1,9 @@
-# GeoPlantNet model training from 2023
-
-On jeanzay codes and models are in `/gpfsdswork/projects/rech/igz/commun/GeoPlantNet_Models/`, models and all output files related to their learning process are in the folders `models/`
+# garden SDM v1 models training
 
 ## Setup
 
-first, if on jeanzay:
-`module load python/3.11.5` (do a `module purge` before if some modules are alredy loaded)
-
 create a conda env from the yml in `lib`:\
 ```conda env create -f gpn_env.yml```
-
-unzip `Deep-SDM.zip`
-
-install the lib in the conda env:\
-`cd Deep-SDM`\
-`conda activate gpn`\
-`pip install --upgrade .`
-
 
 ## occurrences/plots files
 
