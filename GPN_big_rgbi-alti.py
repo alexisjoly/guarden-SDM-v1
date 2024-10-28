@@ -19,8 +19,7 @@ OCC_PATH_PA_GLC_test_GPN_test = './data/PA_glc23_test_GPN_test.csv'
 OCC_PATH_PA_EVA_test = './data/PA_eva_glc2023_val.csv'
 
 # XP path
-xp_name = '_'.join(os.path.basename(__file__).split('_')[1:]).split('.')[0]
-OUTPUT_PATH = '/gpfsdswork/projects/rech/igz/commun/GeoPlantNet_Models/models/'+xp_name+'/'
+OUTPUT_PATH = './output/'
 
 # model params
 DROPOUT = 0.5
@@ -38,7 +37,7 @@ METRICS = (RPrecision(), F1Score())
 
 # READ DATASET
 
-root_data = '/gpfsscratch/rech/igz/commun/glc23/patches/'
+root_data = './data/'
 
 p_rgbi_glc23 = JpegPatchProvider(root_data+'patches_rgbi_glc/')
 p_rgbi_eva = JpegPatchProvider(root_data+'patches_rgbi_eva/')
