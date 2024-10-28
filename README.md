@@ -4,8 +4,9 @@
 
 ## Setup
 
-create a conda env from the yml in `lib`:\
-```conda env create -f gpn_env.yml```
+dependencies and versions used for training are listed in `guarden_sdm_v1.yml`
+create conda env:\
+```conda env create -f guarden_sdm_v1.yml```
 
 ## occurrences/plots files
 
