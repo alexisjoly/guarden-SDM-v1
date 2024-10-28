@@ -1,4 +1,4 @@
-name: gpn
+name: guarden_sdm_v1
 channels:
   - pytorch
   - nvidia
