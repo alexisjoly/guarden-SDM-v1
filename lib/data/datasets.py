@@ -1,4 +1,4 @@
-from deepsdm.data.patchproviders import MultiPatchProvider
+from lib.data.patchproviders import MultiPatchProvider
 import torch
 from torch.utils.data import Dataset
 from pathlib import Path
