@@ -26,10 +26,10 @@ DROPOUT = 0.5
 
 # training
 BATCH_SIZE = 512
-ITERATIONS = [8, 12, 16, 20, 24]
-LOG_MODULO = 1000
-VAL_MODULO = 1
-LR = 0.01
+ITERATIONS = [8, 12, 16, 20, 24] #learning rate decay procedure (epochs where lr is decreased)
+LOG_MODULO = 1000 #intervals between ploting loss (in number of batch)
+VAL_MODULO = 1 #intervals between saving and validating model (in number of epoch)
+LR = 0.01 #start learning rate
 GAMMA = 0.1
 
 # evaluation
