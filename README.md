@@ -4,7 +4,7 @@
 
 ## Setup
 
-dependencies and versions used for training are listed in `guarden_sdm_v1.yml`
+dependencies and versions used for training are listed in `guarden_sdm_v1.yml`\
 create conda env:\
 ```conda env create -f guarden_sdm_v1.yml```
 
